@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+html,body{
+    height: 100%;
+}
+
+#box_conteiner{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    width: 500px;
+    background-color: #222;
+    flex-direction: column;
+    
+}
+
+p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#box_jogo{
+    background-color: #456;
+    height: 400px;
+    width: 450px;
+}
+
+#box_controles{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 60%;
+}
+
+button{
+    width: 50px;
+    border-radius: 20px;
+}
+
+.estilo{
+    font-size: 2em;
+    color: blue;
+}
