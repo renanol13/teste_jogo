@@ -27,8 +27,9 @@ p{
 
 #box_jogo{
     background-color: #456;
-    height: 400px;
-    width: 450px;
+    height: 370px;
+    width: 420px;
+    position: relative;
 }
 
 #box_controles{
@@ -46,4 +47,10 @@ button{
 .estilo{
     font-size: 2em;
     color: blue;
+}
+
+#cobra{
+    background-color: green;
+    width: 30px;
+    height: 30px;
 }
